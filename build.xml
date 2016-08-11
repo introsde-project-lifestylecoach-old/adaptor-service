@@ -15,7 +15,7 @@
        # The target "download-ivy" and "install-ivy" will download the ivy jar and place it in the "ivy" folder
        # 
 -->
-<project name="adaptor-service" default="install" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="data-service" default="install" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
 	<!-- PART 1: Ivy properties, download, installation and configuration -->
 	<property name="ivy.install.version" value="2.4.0-rc1" />
 	<property name="ivy.jar.dir" value="${basedir}/ivy" />
@@ -54,7 +54,7 @@
 	<property name="web.dir" value="." />
 	<property name="webcontent.dir" value="WebContent" />
 	<property name="project.name" value="data-service"/>
-	<property name="startclass.name" value="serviceadaptor.document.endpoint.AdaptorService_Publisher"/>
+	<property name="startclass.name" value="servicedata.document.endpoint.DataService_Publisher"/>
 	<!-- ================================= 
 	          target: resolve downloads the dependencies to your lib folder              
 	================================= -->
