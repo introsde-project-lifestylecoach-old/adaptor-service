@@ -54,7 +54,7 @@
 	<property name="web.dir" value="." />
 	<property name="webcontent.dir" value="WebContent" />
 	<property name="project.name" value="data-service"/>
-	<property name="startclass.name" value="matteogabburo.document.endpoint.AdaptorService_Publisher"/>
+	<property name="startclass.name" value="serviceadaptor.document.endpoint.AdaptorService_Publisher"/>
 	<!-- ================================= 
 	          target: resolve downloads the dependencies to your lib folder              
 	================================= -->

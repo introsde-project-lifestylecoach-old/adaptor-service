@@ -1,5 +1,8 @@
 package serviceadaptor.document.ws;
 
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "serviceadaptor.document.ws.AdaptorService_interface", serviceName="adaptor-service")
 public class AdaptorService_implementation implements AdaptorService_interface {
 
 	@Override
